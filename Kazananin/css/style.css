@@ -1,0 +1,39 @@
+#syac {
+
+color: rgb(93, 93, 241);
+padding: 10px;
+
+}
+
+#cards{
+
+    display: none;
+}
+
+.btn-close{
+
+    position: absolute;
+    left : 450px
+}
+#loader{
+
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    
+}
+.loader-con{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: #000000eb;;
+
+}
+.list-group-item{
+
+    background: transparent;
+}
